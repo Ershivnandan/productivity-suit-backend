@@ -1,9 +1,9 @@
 import express from 'express';
-import connectDB from './config/db.js';
+import connectDB from './src/config/db.js';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import authRoutes from './routes/auth.route.js';
-import taskRoutes from './routes/task.route.js';
+import authRoutes from './src/routes/auth.route.js';
+import taskRoutes from './src/routes/task.route.js';
 import session from 'express-session';
 import passport from 'passport';
 
