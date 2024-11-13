@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"No tests specified\"",
     "build": "echo 'No build step required'",
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
