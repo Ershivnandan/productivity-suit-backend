@@ -6,6 +6,7 @@
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"No tests specified\"",
+    "build": "echo 'No build step required'",
     "start": "nodemon src/app.js",
     "dev": "nodemon src/app.js"
   },
